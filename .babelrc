@@ -1,0 +1,27 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@components": "./src/components",
+          "@features": "./src/features",
+          "@commons": "./src/commons",
+          "@pages": "./src/pages",
+          "@assets": "./src/assets"
+        }
+      }
+    ]
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry",
+        "forceAllTransforms": true,
+        "corejs": "3.0.0",
+        "targets": { "ie": "11" }
+      }
+    ]
+  ]
+}
