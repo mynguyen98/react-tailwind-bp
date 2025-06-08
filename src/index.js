@@ -7,6 +7,7 @@ import "./translation/i18next";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    Test n8n!
     <App />
   </React.StrictMode>
 );
