@@ -10,6 +10,7 @@ function App() {
         <div className='flex'>  <h1>{t('name')}</h1>    <h1>{t('manish')}</h1> </div>
         <button className=' bg-red-500 mr-4' onClick={()=> i18n.changeLanguage('en')}>change language to en</button>
         <button className=' bg-red-500' onClick={()=> i18n.changeLanguage('vn')}>change language to vn</button>
+        <button className=' bg-red-500' onClick={()=> i18n.changeLanguage('vn')}>change language to vn</button>
     </div>
   );
 }
